@@ -201,7 +201,7 @@ img {
 	margin-right: 0;
 }
 
-@media(max-width: 768px) {
+@media screen and (max-width: 768px) {
 	.navbar {
 		flex-direction: column;
 		justify-content: space-around;
