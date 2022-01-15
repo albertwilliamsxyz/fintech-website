@@ -177,5 +177,19 @@
 		</div>
 		<p>Copyright &copy; 2022 - EdgeLedger</p>
 	</footer>
+	<script>
+		let navbar = document.getElementById('navbar');
+		console.log(window.pageYOffset);
+		if (window.pageYOffset === 0) {
+			navbar.classList.add('top');
+		}
+		window.onscroll = function() {
+			if (window.pageYOffset > 0) {
+				navbar.classList.remove('top');
+			} else {
+				navbar.classList.add('top');
+			}
+		}
+	</script>
 </body>
 </html>

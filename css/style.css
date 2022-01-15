@@ -47,6 +47,11 @@ img {
 	position: fixed;
 	top: 0px;
 	padding: 0 30px;
+	transition: 0.5s;
+}
+
+.navbar.top {
+	background: transparent;
 }
 
 .navbar a {
@@ -249,5 +254,13 @@ img {
 	.flex-grid .column {
 		flex: 100%;
 		max-width: 100%;
+	}
+
+	.hero.blog {
+		height: 50vh;
+	}
+
+	.hero.blog .content h1 {
+		margin-top: 200px;
 	}
 }
