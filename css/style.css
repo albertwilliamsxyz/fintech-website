@@ -263,4 +263,24 @@ img {
 	.hero.blog .content h1 {
 		margin-top: 200px;
 	}
+
+	.flex-grid .column {
+		padding: 0;
+	}
+
+	.flex-grid .column img:first-child {
+		padding: 5px 0;
+	}
+
+	.flex-grid .column img:last-child {
+		padding: 5px 0;
+	}
+
+	.flex-grid .column:first-child img:first-child {
+		padding-top: 0;
+	}
+
+	.flex-grid .column:last-child img:last-child {
+		padding-bottom: 0;
+	}
 }
